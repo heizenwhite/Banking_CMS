@@ -1,0 +1,138 @@
+.CustomerContent{
+	height: Calc(100vh - 70px);
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.CustomerContent>.TitlePage{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 30px;
+	color: navy;
+	text-decoration: underline;
+}
+.CustomerContent>.error{
+	margin-top: 20px;
+	color: red;
+	font-size: 18px;
+}
+.CustomerContent>.Content{
+	width: 90%;
+	margin-top: 40px;
+}
+.CustomerContent>.Content>.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.CustomerContent>.Content>.header>.AddCustomer{
+	font-size: 20px;
+	background: #0004ff;
+	color: white;
+	text-align: center;
+	width: 200px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.CustomerContent>.Content>.header>.search{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.CustomerContent>.Content>.header>.search>input{
+	height: 25px;
+	font-size: 15px;
+	margin-right: 4px;
+}
+.CustomerContent>.Content>.header>.search>button{
+	height: 28px;
+	width: 26px;
+	text-align: center;
+	cursor: pointer;
+}
+.CustomerContent>.Content>.header>button>i{
+	color: black;
+}
+
+
+.CustomerContent>.Content>.TableData{
+	border: 1px solid;
+	width: 100%;
+}
+
+.CustomerContent>.Content>.TableData th{
+	border: 1px solid black;
+	height: 35px;
+}
+.CustomerContent>.Content>.TableData tr{
+	border: 1px solid ;
+}
+
+
+.CustomerContent>.Content>.TableData th>td{
+	border: 1px solid ;
+
+}
+.CustomerContent>.Content>.TableData tr>td{
+	border: 1px solid ;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.CustomerContent>.Content>.TableData tr>.action{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.CustomerContent>.Content>.TableData tr>.action>a:hover{
+	text-decoration: underline;
+}
+
+.CustomerContent>.AddContent{
+	margin-top: 40px;
+	width: 50%;
+	margin-left: 20%;
+}
+.CustomerContent>.AddContent>.MyInputs{
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+}
+.CustomerContent>.AddContent>.MyInputs>.title{
+	width: 200px;
+	font-size: 18px;
+}
+.CustomerContent>.AddContent>.MyInputs>input{
+	height: 30px;
+	font-size: 20px;
+}
+.CustomerContent>.AddContent>.MyInputs>.Imglogo{
+	width: 100px;
+	height: 100px;
+}
+
+.CustomerContent>.AddContent>.controls{
+	display: flex;
+	align-items: center;
+	width: 40%;
+	margin-bottom: 40px;
+	margin-left: -2%;
+}
+.CustomerContent>.AddContent>.controls>.btn{
+	color: white;
+	background: #35f;
+	width: 70px;
+	text-align: center;
+	height: 26px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+}

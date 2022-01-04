@@ -1,0 +1,141 @@
+
+.deviseContent{
+	height: Calc(100vh - 70px);
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.deviseContent>.TitlePage{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 30px;
+	color: navy;
+	text-decoration: underline;
+}
+.deviseContent>.error{
+	margin-top: 20px;
+	color: red;
+	font-size: 18px;
+}
+.deviseContent>.Content{
+	width: 90%;
+	margin-top: 40px;
+}
+.deviseContent>.Content>.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.deviseContent>.Content>.header>.Adddevise{
+	font-size: 20px;
+	background: #0004ff;
+	color: white;
+	text-align: center;
+	width: 200px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.deviseContent>.Content>.header>.search{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.deviseContent>.Content>.header>.search>input{
+	height: 25px;
+	font-size: 15px;
+	margin-right: 4px;
+}
+.deviseContent>.Content>.header>.search>button{
+	height: 28px;
+	width: 26px;
+	text-align: center;
+	cursor: pointer;
+}
+.deviseContent>.Content>.header>button>i{
+	color: black;
+}
+
+
+.deviseContent>.Content>.TableData{
+	border: 1px solid;
+	width: 100%;
+}
+
+.deviseContent>.Content>.TableData th{
+	border: 1px solid black;
+	height: 35px;
+}
+.deviseContent>.Content>.TableData tr{
+	border: 1px solid ;
+}
+
+
+.deviseContent>.Content>.TableData th>td{
+	border: 1px solid ;
+
+}
+.deviseContent>.Content>.TableData tr>td{
+	border: 1px solid ;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.deviseContent>.Content>.TableData tr>.action{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.deviseContent>.Content>.TableData tr>.action>a:hover{
+	text-decoration: underline;
+}
+
+.deviseContent>.AddContent{
+	margin-top: 40px;
+	width: 50%;
+	margin-left: 20%;
+}
+.deviseContent>.AddContent>.MyInputs{
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+}
+.deviseContent>.AddContent>.MyInputs>.title{
+	width: 200px;
+	font-size: 18px;
+}
+.deviseContent>.AddContent>.MyInputs>input{
+	height: 30px;
+	font-size: 20px;
+}
+.deviseContent>.AddContent>.MyInputs>.Imglogo{
+	width: 100px;
+	height: 100px;
+}
+
+.deviseContent>.AddContent>.controls{
+	display: flex;
+	align-items: center;
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: -2%;
+	justify-content: space-around;
+}
+.deviseContent>.AddContent>.controls>.btn{
+	color: white;
+	background: #35f;
+	width: 70px;
+	text-align: center;
+	height: 26px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+}

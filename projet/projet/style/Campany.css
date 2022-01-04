@@ -1,0 +1,138 @@
+.CompanyContent{
+	height: Calc(100vh - 70px);
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.CompanyContent>.TitlePage{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 30px;
+	color: navy;
+	text-decoration: underline;
+}
+.CompanyContent>.error{
+	margin-top: 20px;
+	color: red;
+	font-size: 18px;
+}
+.CompanyContent>.Content{
+	width: 90%;
+	margin-top: 40px;
+}
+.CompanyContent>.Content>.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.CompanyContent>.Content>.header>.AddCompany{
+	font-size: 20px;
+	background: #0728e4;
+	color: white;
+	text-align: center;
+	width: 200px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.CompanyContent>.Content>.header>.search{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.CompanyContent>.Content>.header>.search>input{
+	height: 25px;
+	font-size: 15px;
+	margin-right: 4px;
+}
+.CompanyContent>.Content>.header>.search>button{
+	height: 28px;
+	width: 26px;
+	text-align: center;
+	cursor: pointer;
+}
+.CompanyContent>.Content>.header>button>i{
+	color: black;
+}
+
+
+.CompanyContent>.Content>.TableData{
+	border: 1px solid;
+	width: 100%;
+}
+
+.CompanyContent>.Content>.TableData th{
+	border: 1px solid black;
+	height: 35px;
+}
+.CompanyContent>.Content>.TableData tr{
+	border: 1px solid ;
+}
+
+
+.CompanyContent>.Content>.TableData th>td{
+	border: 1px solid ;
+
+}
+.CompanyContent>.Content>.TableData tr>td{
+	border: 1px solid ;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.CompanyContent>.Content>.TableData tr>.action{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.CompanyContent>.Content>.TableData tr>.action>a:hover{
+	text-decoration: underline;
+}
+
+.CompanyContent>.AddContent{
+	margin-top: 40px;
+	width: 50%;
+	margin-left: 20%;
+}
+.CompanyContent>.AddContent>.MyInputs{
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+}
+.CompanyContent>.AddContent>.MyInputs>.title{
+	width: 200px;
+	font-size: 18px;
+}
+.CompanyContent>.AddContent>.MyInputs>input{
+	height: 30px;
+	font-size: 20px;
+}
+.CompanyContent>.AddContent>.MyInputs>.Imglogo{
+	width: 100px;
+	height: 100px;
+}
+
+.CompanyContent>.AddContent>.controls{
+	display: flex;
+	align-items: center;
+	width: 40%;
+	margin-bottom: 40px;
+	margin-left: -2%;
+}
+.CompanyContent>.AddContent>.controls>.btn{
+	color: white;
+	background: #0728e4;
+	width: 70px;
+	text-align: center;
+	height: 26px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+}

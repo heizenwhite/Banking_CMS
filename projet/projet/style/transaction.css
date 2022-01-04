@@ -1,0 +1,140 @@
+.transactionContent{
+	height: Calc(100vh - 70px);
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.transactionContent>.TitlePage{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 30px;
+	color: navy;
+	text-decoration: underline;
+}
+.transactionContent>.error{
+	margin-top: 20px;
+	color: red;
+	font-size: 18px;
+}
+.transactionContent>.Content{
+	width: 90%;
+	margin-top: 40px;
+}
+.transactionContent>.Content>.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.transactionContent>.Content>.header>.Addtransaction{
+	font-size: 20px;
+	background: #0004ff;
+	color: white;
+	text-align: center;
+	width: 200px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.transactionContent>.Content>.header>.search{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.transactionContent>.Content>.header>.search>input{
+	height: 25px;
+	font-size: 15px;
+	margin-right: 4px;
+}
+.transactionContent>.Content>.header>.search>button{
+	height: 28px;
+	width: 26px;
+	text-align: center;
+	cursor: pointer;
+}
+.transactionContent>.Content>.header>button>i{
+	color: black;
+}
+
+
+.transactionContent>.Content>.TableData{
+	border: 1px solid;
+	width: 100%;
+}
+
+.transactionContent>.Content>.TableData th{
+	border: 1px solid black;
+	height: 35px;
+}
+.transactionContent>.Content>.TableData tr{
+	border: 1px solid ;
+}
+
+
+.transactionContent>.Content>.TableData th>td{
+	border: 1px solid ;
+
+}
+.transactionContent>.Content>.TableData tr>td{
+	border: 1px solid ;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.transactionContent>.Content>.TableData tr>.action{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.transactionContent>.Content>.TableData tr>.action>a:hover{
+	text-decoration: underline;
+}
+
+.transactionContent>.AddContent{
+	margin-top: 40px;
+	width: 50%;
+	margin-left: 20%;
+}
+.transactionContent>.AddContent>.MyInputs{
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+}
+.transactionContent>.AddContent>.MyInputs>.title{
+	width: 200px;
+	font-size: 18px;
+}
+.transactionContent>.AddContent>.MyInputs>input{
+	height: 30px;
+	font-size: 20px;
+}
+.transactionContent>.AddContent>.MyInputs>.Imglogo{
+	width: 100px;
+	height: 100px;
+}
+
+.transactionContent>.AddContent>.controls{
+	display: flex;
+	align-items: center;
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: -2%;
+	justify-content: space-around;
+}
+.transactionContent>.AddContent>.controls>.btn{
+	color: white;
+	background: #35f;
+	width: 70px;
+	text-align: center;
+	height: 26px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+}

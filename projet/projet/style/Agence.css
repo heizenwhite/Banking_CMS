@@ -1,0 +1,138 @@
+.AgenceContent{
+	height: Calc(100vh - 70px);
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.AgenceContent>.TitlePage{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 30px;
+	color: navy;
+	text-decoration: underline;
+}
+.AgenceContent>.error{
+	margin-top: 20px;
+	color: red;
+	font-size: 18px;
+}
+.AgenceContent>.Content{
+	width: 90%;
+	margin-top: 40px;
+}
+.AgenceContent>.Content>.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.AgenceContent>.Content>.header>.AddAgence{
+	font-size: 20px;
+	background: #0004ff;
+	color: white;
+	text-align: center;
+	width: 200px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.AgenceContent>.Content>.header>.search{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.AgenceContent>.Content>.header>.search>input{
+	height: 25px;
+	font-size: 15px;
+	margin-right: 4px;
+}
+.AgenceContent>.Content>.header>.search>button{
+	height: 28px;
+	width: 26px;
+	text-align: center;
+	cursor: pointer;
+}
+.AgenceContent>.Content>.header>button>i{
+	color: black;
+}
+
+
+.AgenceContent>.Content>.TableData{
+	border: 1px solid;
+	width: 100%;
+}
+
+.AgenceContent>.Content>.TableData th{
+	border: 1px solid black;
+	height: 35px;
+}
+.AgenceContent>.Content>.TableData tr{
+	border: 1px solid ;
+}
+
+
+.AgenceContent>.Content>.TableData th>td{
+	border: 1px solid ;
+
+}
+.AgenceContent>.Content>.TableData tr>td{
+	border: 1px solid ;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.AgenceContent>.Content>.TableData tr>.action{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.AgenceContent>.Content>.TableData tr>.action>a:hover{
+	text-decoration: underline;
+}
+
+.AgenceContent>.AddContent{
+	margin-top: 40px;
+	width: 50%;
+	margin-left: 20%;
+}
+.AgenceContent>.AddContent>.MyInputs{
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+}
+.AgenceContent>.AddContent>.MyInputs>.title{
+	width: 200px;
+	font-size: 18px;
+}
+.AgenceContent>.AddContent>.MyInputs>input{
+	height: 30px;
+	font-size: 20px;
+}
+.AgenceContent>.AddContent>.MyInputs>.Imglogo{
+	width: 100px;
+	height: 100px;
+}
+
+.AgenceContent>.AddContent>.controls{
+	display: flex;
+	align-items: center;
+	width: 40%;
+	margin-bottom: 40px;
+	margin-left: -2%;
+}
+.AgenceContent>.AddContent>.controls>.btn{
+	color: white;
+	background: #35f;
+	width: 70px;
+	text-align: center;
+	height: 26px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+}
